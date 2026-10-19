@@ -1,13 +1,3 @@
-/* =========================================================
-   INTERNNOVA HOMEPAGE
-   FINAL RESPONSIVE STYLES
-========================================================= */
-
-
-/* =========================================================
-   LARGE TABLET / SMALL LAPTOP
-   1100px and below
-========================================================= */
 
 @media (max-width: 1100px) {
 
@@ -19,13 +9,9 @@
         padding: 90px 0;
     }
 
-    /* NAVBAR */
-
     .nav-menu {
         gap: 20px;
     }
-
-    /* HERO */
 
     .hero-container {
         grid-template-columns: 1fr 1fr;
@@ -48,38 +34,24 @@
         left: -10px;
     }
 
-    /* ABOUT */
-
     .about-grid {
         gap: 45px;
     }
 
-    /* WHY */
-
     .why-layout {
         gap: 45px;
     }
-
-    /* LEARNING */
 
     .learning-panel {
         gap: 45px;
         padding: 55px;
     }
 
-    /* FOOTER */
-
     .footer-main {
         grid-template-columns: 1.3fr 0.8fr 0.8fr 1fr;
         gap: 35px;
     }
 }
-
-
-/* =========================================================
-   TABLET
-   900px and below
-========================================================= */
 
 @media (max-width: 900px) {
 
@@ -90,11 +62,6 @@
     .section-padding {
         padding: 80px 0;
     }
-
-
-    /* =====================================================
-       NAVBAR
-    ===================================================== */
 
     .navbar {
         min-height: 78px;
@@ -178,11 +145,6 @@
         transform: translateY(-7px) rotate(-45deg);
     }
 
-
-    /* =====================================================
-       ANNOUNCEMENT STRIP
-    ===================================================== */
-
     .announcement-strip {
         overflow: hidden;
         white-space: nowrap;
@@ -203,11 +165,6 @@
     .announcement-track {
         width: max-content;
     }
-
-
-    /* =====================================================
-       HERO
-    ===================================================== */
 
     .hero-section {
         min-height: auto;
@@ -260,11 +217,6 @@
         left: 0;
     }
 
-
-    /* =====================================================
-       HEADINGS
-    ===================================================== */
-
     .split-heading {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -273,11 +225,6 @@
     .split-heading > p {
         margin-bottom: 0;
     }
-
-
-    /* =====================================================
-       ABOUT
-    ===================================================== */
 
     .about-grid {
         grid-template-columns: 1fr;
@@ -292,19 +239,9 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-    /* =====================================================
-       PROGRAMS
-    ===================================================== */
-
     .programs-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
-    /* =====================================================
-       DOMAINS
-    ===================================================== */
 
     .domains-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -315,11 +252,6 @@
         gap: 15px;
         padding: 0 22px;
     }
-
-
-    /* =====================================================
-       WHY US
-    ===================================================== */
 
     .why-layout {
         grid-template-columns: 1fr;
@@ -335,11 +267,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-    /* =====================================================
-       HOW IT WORKS
-    ===================================================== */
-
     .journey-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -351,11 +278,6 @@
     .journey-number {
         margin-bottom: 65px;
     }
-
-
-    /* =====================================================
-       LEARNING
-    ===================================================== */
 
     .learning-panel {
         grid-template-columns: 1fr;
@@ -371,11 +293,6 @@
         justify-content: flex-start;
     }
 
-
-    /* =====================================================
-       WORKSHOPS
-    ===================================================== */
-
     .experience-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -389,11 +306,6 @@
         min-height: 270px;
     }
 
-
-    /* =====================================================
-       TESTIMONIALS
-    ===================================================== */
-
     .testimonial-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -401,11 +313,6 @@
     .featured-testimonial {
         grid-column: 1 / -1;
     }
-
-
-    /* =====================================================
-       STATS
-    ===================================================== */
 
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -416,11 +323,6 @@
         border-right: 0;
     }
 
-
-    /* =====================================================
-       FAQ
-    ===================================================== */
-
     .faq-list {
         max-width: 100%;
     }
@@ -428,11 +330,6 @@
     .faq-answer p {
         padding-right: 30px;
     }
-
-
-    /* =====================================================
-       CTA
-    ===================================================== */
 
     .cta-box {
         min-height: 360px;
@@ -443,11 +340,6 @@
         right: -150px;
         bottom: -160px;
     }
-
-
-    /* =====================================================
-       FOOTER
-    ===================================================== */
 
     .footer-main {
         grid-template-columns: 1.4fr 1fr 1fr;
@@ -464,11 +356,6 @@
         align-items: flex-start;
     }
 
-
-    /* =====================================================
-       CONTACT
-    ===================================================== */
-
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 45px;
@@ -479,12 +366,6 @@
     }
 }
 
-
-/* =========================================================
-   MOBILE
-   700px and below
-========================================================= */
-
 @media (max-width: 700px) {
 
     .container {
@@ -494,9 +375,6 @@
     .section-padding {
         padding: 70px 0;
     }
-
-
-    /* NAVBAR */
 
     .navbar {
         min-height: 72px;
@@ -517,9 +395,6 @@
         padding: 100px 30px 40px;
     }
 
-
-    /* ANNOUNCEMENT */
-
     .announcement-content {
         min-height: 42px;
     }
@@ -536,9 +411,6 @@
     .announcement-track {
         animation-duration: 24s;
     }
-
-
-    /* HERO */
 
     .hero-section {
         padding: 125px 0 65px;
@@ -664,9 +536,6 @@
         font-size: 0.54rem;
     }
 
-
-    /* HEADINGS */
-
     .section-heading {
         margin-bottom: 40px;
     }
@@ -683,9 +552,6 @@
     .section-tag {
         font-size: 0.63rem;
     }
-
-
-    /* ABOUT */
 
     .about-story {
         min-height: 0;
@@ -713,9 +579,6 @@
         margin-bottom: 28px;
     }
 
-
-    /* PROGRAMS */
-
     .programs-grid {
         grid-template-columns: 1fr;
     }
@@ -732,9 +595,6 @@
         font-size: 1.5rem;
     }
 
-
-    /* DOMAINS */
-
     .domains-grid {
         grid-template-columns: 1fr;
     }
@@ -749,9 +609,6 @@
     .domain-item h3 {
         font-size: 0.88rem;
     }
-
-
-    /* WHY */
 
     .why-layout {
         gap: 35px;
@@ -774,9 +631,6 @@
         margin-bottom: 35px;
     }
 
-
-    /* HOW IT WORKS */
-
     .journey-grid {
         grid-template-columns: 1fr;
     }
@@ -793,9 +647,6 @@
     .journey-card h3 {
         font-size: 1.35rem;
     }
-
-
-    /* LEARNING */
 
     .learning-panel {
         padding: 38px 25px;
@@ -814,9 +665,6 @@
     .learning-dashboard {
         padding: 19px;
     }
-
-
-    /* WORKSHOPS */
 
     .experience-grid {
         grid-template-columns: 1fr;
@@ -840,9 +688,6 @@
         font-size: 1.7rem;
     }
 
-
-    /* TESTIMONIALS */
-
     .testimonial-grid {
         grid-template-columns: 1fr;
     }
@@ -858,9 +703,6 @@
     .testimonial-card > p {
         min-height: auto;
     }
-
-
-    /* STATS */
 
     .stats-section {
         padding: 40px 0;
@@ -890,9 +732,6 @@
     .stat-item span {
         font-size: 0.6rem;
     }
-
-
-    /* FAQ */
 
     .faq-question {
         padding: 20px 0;
@@ -932,9 +771,6 @@
     .bubble-seven {
         left: 75%;
     }
-
-
-    /* CTA */
 
     .cta-box {
         min-height: 0;
@@ -980,9 +816,6 @@
         font-size: 4.5rem;
     }
 
-
-    /* FOOTER TESTIMONIALS */
-
     .footer-testimonials {
         padding: 65px 0 55px;
     }
@@ -1024,9 +857,6 @@
         font-size: 0.76rem;
     }
 
-
-    /* FOOTER */
-
     .site-footer {
         padding: 60px 0 22px;
     }
@@ -1059,9 +889,6 @@
         gap: 12px 18px;
     }
 
-
-    /* CONTACT */
-
     .contact-grid {
         grid-template-columns: 1fr;
     }
@@ -1083,12 +910,6 @@
     }
 }
 
-
-/* =========================================================
-   SMALL MOBILE
-   480px and below
-========================================================= */
-
 @media (max-width: 480px) {
 
     .container {
@@ -1098,9 +919,6 @@
     .section-padding {
         padding: 60px 0;
     }
-
-
-    /* NAVBAR */
 
     .brand {
         gap: 8px;
@@ -1121,9 +939,6 @@
         padding: 95px 24px 25px;
     }
 
-
-    /* ANNOUNCEMENT */
-
     .announcement-content span {
         font-size: 0.5rem;
     }
@@ -1131,9 +946,6 @@
     .announcement-content i {
         margin: 0 13px;
     }
-
-
-    /* HERO */
 
     .hero-section {
         padding-top: 115px;
@@ -1250,9 +1062,6 @@
         font-size: 0.49rem;
     }
 
-
-    /* HEADINGS */
-
     .section-tag {
         font-size: 0.58rem;
         letter-spacing: 0.12em;
@@ -1261,9 +1070,6 @@
     .section-heading h2 {
         font-size: 2rem;
     }
-
-
-    /* PROGRAMS */
 
     .program-card {
         padding: 23px;
@@ -1281,9 +1087,6 @@
         font-size: 0.56rem;
     }
 
-
-    /* DOMAINS */
-
     .domain-item {
         min-height: 82px;
         padding: 0 14px;
@@ -1292,9 +1095,6 @@
     .domain-item h3 {
         font-size: 0.8rem;
     }
-
-
-    /* LEARNING */
 
     .learning-panel {
         padding: 32px 20px;
@@ -1307,9 +1107,6 @@
     .learning-content > p {
         font-size: 0.76rem;
     }
-
-
-    /* STATS */
 
     .stats-grid {
         column-gap: 0;
@@ -1327,9 +1124,6 @@
         font-size: 0.55rem;
     }
 
-
-    /* FAQ */
-
     .faq-question {
         font-size: 0.78rem;
         gap: 12px;
@@ -1346,9 +1140,6 @@
         font-size: 0.85rem;
     }
 
-
-    /* CTA */
-
     .cta-box {
         padding: 38px 20px;
     }
@@ -1360,9 +1151,6 @@
     .cta-content > p {
         font-size: 0.74rem;
     }
-
-
-    /* FOOTER */
 
     .footer-main {
         grid-template-columns: 1fr;
@@ -1386,9 +1174,6 @@
         font-size: 0.58rem;
     }
 
-
-    /* CONTACT */
-
     .contact-form-wrapper {
         padding: 22px;
     }
@@ -1398,20 +1183,12 @@
     }
 }
 
-
-/* =========================================================
-   VERY SMALL DEVICES
-   360px and below
-========================================================= */
-
 @media (max-width: 360px) {
 
     .container {
         width: min(100% - 20px, var(--container));
     }
 
-
-    /* HERO */
 
     .hero-content h1 {
         font-size: 2.25rem;
@@ -1435,9 +1212,6 @@
         display: none;
     }
 
-
-    /* HERO PREVIEW */
-
     .preview-stats {
         grid-template-columns: 1fr;
     }
@@ -1452,9 +1226,6 @@
     .preview-stats span {
         margin-top: 0;
     }
-
-
-    /* STATS */
 
     .stats-grid {
         grid-template-columns: 1fr;
@@ -1472,17 +1243,10 @@
     }
 
 
-    /* FOOTER TESTIMONIAL */
-
     .mini-testimonial {
         width: 270px;
     }
 }
-
-
-/* =========================================================
-   TOUCH DEVICES
-========================================================= */
 
 @media (hover: none) and (pointer: coarse) {
 
@@ -1507,5 +1271,17 @@
     .theme-toggle,
     .menu-toggle {
         -webkit-tap-highlight-color: transparent;
+    }
+}
+
+@media (max-width: 700px) {
+    .brand-logo {
+        width: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-logo {
+        width: 120px;
     }
 }

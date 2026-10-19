@@ -9,12 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const themeIcon = document.getElementById("themeIcon");
 
     const faqItems = document.querySelectorAll(".faq-item");
-
-
-    /* ================================
-       MOBILE NAVIGATION
-    ================================= */
-
     const openMenu = () => {
         if (!menuToggle || !navMenu) return;
 
@@ -74,11 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     }
-
-
-    /* ================================
-       DARK / LIGHT THEME
-    ================================= */
 
     const updateThemeIcon = (isDark) => {
 
@@ -152,11 +141,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-
-    /* ================================
-       FAQ ACCORDION
-    ================================= */
-
     faqItems.forEach((item) => {
 
         const question = item.querySelector(".faq-question");
@@ -213,11 +197,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-
-    /* ================================
-       ACTIVE NAVIGATION ON SCROLL
-    ================================= */
-
     const updateActiveNav = () => {
 
         const scrollPosition = window.scrollY + 180;
@@ -266,11 +245,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateActiveNav();
 
-
-    /* ================================
-       RESIZE HANDLING
-    ================================= */
-
     window.addEventListener("resize", () => {
 
         if (window.innerWidth > 900) {
@@ -296,11 +270,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
     });
-
-
-    /* ================================
-       STAFF LOGIN PLACEHOLDER
-    ================================= */
 
     const staffLogin =
         document.querySelector(".staff-login");

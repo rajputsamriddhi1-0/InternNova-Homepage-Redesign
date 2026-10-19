@@ -88,11 +88,6 @@ body.dark-mode {
     --shadow-sm: 0 10px 30px rgba(0, 0, 0, 0.22);
 }
 
-
-/* ================================
-   RESET
-================================ */
-
 * {
     margin: 0;
     padding: 0;
@@ -144,11 +139,6 @@ img {
     background: var(--accent);
     color: #ffffff;
 }
-
-
-/* ================================
-   CONTAINER & COMMON
-================================ */
 
 .container {
     width: min(100% - 48px, var(--container));
@@ -226,11 +216,6 @@ img {
 .split-heading > p {
     margin-bottom: 5px;
 }
-
-
-/* ================================
-   BUTTONS
-================================ */
 
 .btn {
     display: inline-flex;
@@ -330,11 +315,6 @@ img {
 .text-link:hover span {
     transform: translateX(5px);
 }
-
-
-/* ================================
-   NAVBAR
-================================ */
 
 .site-header {
     position: absolute;
@@ -523,11 +503,6 @@ img {
 .theme-toggle i {
     font-size: 0.9rem;
 }
-
-
-/* ================================
-   HERO
-================================ */
 
 .hero-section {
     position: relative;
@@ -875,11 +850,6 @@ body.dark-mode .hero-shape-two {
     font-size: 0.62rem;
 }
 
-
-/* ================================
-   ABOUT
-================================ */
-
 .about-section {
     background: var(--surface);
 }
@@ -973,10 +943,6 @@ body.dark-mode .hero-shape-two {
     font-size: 0.78rem;
 }
 
-
-/* ================================
-   PROGRAMS
-================================ */
 .programs-section {
     position: relative;
     background-image:
@@ -1134,12 +1100,6 @@ body.dark-mode .hero-shape-two {
     margin-top: 40px;
     text-align: center;
 }
-
-
-
-/* ================================
-   DOMAINS
-================================ */
 
 .domains-section {
     position: relative;
@@ -1312,10 +1272,6 @@ body.dark-mode .hero-shape-two {
     background: rgba(255, 255, 255, 0.04);
 }
 
-/* ================================
-   WHY US
-================================ */
-
 .why-section {
     background: var(--surface);
 }
@@ -1388,11 +1344,6 @@ body.dark-mode .hero-shape-two {
     font-size: 0.76rem;
 }
 
-
-/* ================================
-   HOW IT WORKS
-================================ */
-
 .journey-section {
     background: var(--background);
 }
@@ -1431,11 +1382,6 @@ body.dark-mode .hero-shape-two {
     color: var(--text-soft);
     font-size: 0.76rem;
 }
-
-
-/* ================================
-   LEARNING
-================================ */
 
 .learning-section {
     background: var(--surface);
@@ -1579,11 +1525,6 @@ body.dark-mode .hero-shape-two {
     border: 1px solid rgba(178, 138, 74, 0.35);
 }
 
-
-/* ================================
-   WORKSHOPS
-================================ */
-
 .workshops-section {
     background: var(--background);
 }
@@ -1657,11 +1598,6 @@ body.dark-mode .hero-shape-two {
     color: var(--text-soft);
     font-size: 0.76rem;
 }
-
-
-/* ================================
-   TESTIMONIALS
-================================ */
 
 .testimonials-section {
     background: var(--surface);
@@ -1754,11 +1690,6 @@ body.dark-mode .hero-shape-two {
     font-size: 0.6rem;
 }
 
-
-/* ================================
-   STATS
-================================ */
-
 .stats-section {
     padding: 55px 0;
     background: var(--accent);
@@ -1798,11 +1729,6 @@ body.dark-mode .hero-shape-two {
     color: rgba(255, 255, 255, 0.82);
     font-size: 0.68rem;
 }
-
-
-/* ================================
-   FAQ
-================================ */
 
 .faq-section {
     position: relative;
@@ -1876,11 +1802,6 @@ body.dark-mode .hero-shape-two {
     color: var(--text-soft);
     font-size: 0.8rem;
 }
-
-
-/* ================================
-   FAQ BUBBLES
-================================ */
 
 .faq-bubbles {
     position: absolute;
@@ -1998,11 +1919,6 @@ body.dark-mode .faq-bubble {
     }
 }
 
-
-/* ================================
-   CTA
-================================ */
-
 .cta-section {
     background: var(--surface);
 }
@@ -2089,11 +2005,6 @@ body.dark-mode .faq-bubble {
     font-family: "Playfair Display", serif;
     font-size: 7rem;
 }
-
-
-/* ================================
-   CONTACT
-================================ */
 
 .contact-section {
     padding: 110px 0;
@@ -2274,11 +2185,6 @@ body.dark-mode .faq-bubble {
     color: #e57373;
 }
 
-
-/* ================================
-   FOOTER TESTIMONIALS
-================================ */
-
 .footer-testimonials {
     position: relative;
     overflow: hidden;
@@ -2407,11 +2313,6 @@ body.dark-mode .faq-bubble {
     animation-play-state: paused;
 }
 
-
-/* ================================
-   FOOTER
-================================ */
-
 .site-footer {
     padding: 75px 0 25px;
     background: #0e2235;
@@ -2508,11 +2409,6 @@ body.dark-mode .faq-bubble {
     color: #ffffff;
 }
 
-
-/* ================================
-   ANNOUNCEMENT STRIP
-================================ */
-
 .announcement-strip {
     position: relative;
     z-index: 20;
@@ -2566,11 +2462,6 @@ body.dark-mode .faq-bubble {
     animation-play-state: paused;
 }
 
-
-/* ================================
-   SCROLLBAR
-================================ */
-
 ::-webkit-scrollbar {
     width: 9px;
 }
@@ -2588,20 +2479,10 @@ body.dark-mode .faq-bubble {
     background: var(--accent);
 }
 
-
-/* ================================
-   FOCUS
-================================ */
-
 :focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 4px;
 }
-
-
-/* ================================
-   DARK MODE EXTRA FIXES
-================================ */
 
 body.dark-mode .btn-secondary {
     color: #edf3f7;
@@ -2662,11 +2543,6 @@ body.dark-mode .status-badge {
     color: #8ed3a7;
 }
 
-
-/* ================================
-   CONTACT DARK MODE
-================================ */
-
 body.dark-mode .contact-section {
     background: #111c26;
 }
@@ -2693,11 +2569,6 @@ body.dark-mode .form-group textarea:focus {
     background: #111e29;
     border-color: var(--accent);
 }
-
-
-/* ================================
-   RESPONSIVE SUPPORT
-================================ */
 
 @media (max-width: 1100px) {
     .nav-menu {
